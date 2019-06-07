@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300italic,600italic,300,600);
+
+/* ============================================== */
+/* ! Style by Team Ruminor (www.teamruminor.com)  */
+/* ============================================== */
+html::before {
+  content: ' ';
+  display: block;
+  background-image: url('https://www.teamruminor.com/assets/img/background.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10
+}
+
+body {
+    font: 18px Roboto, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: #000000
+}
+
+::selection {
+    background: #000000;
+    color: #fff
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    transition: color .1s;
+}
+
+a:hover {
+    color: #333333 !important
+}
+
+#wrapper {
+    padding-top: 100px;
+    text-align: center
+}
+
+#branding h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 350%
+}
+
+#branding h1 img {
+    vertical-align: -10px;
+    margin-bottom: 15px
+}
+
+#branding h2 {
+    font-weight: 300;
+    font-size: 180%;
+    margin-top: 40px
+}
+
+#links ul {
+    list-style-type: none;
+    margin: 30px auto 60px;
+    padding: 0;
+    width: 9.5em;
+    text-align: left;
+    font-size: 120%
+}
+
+#links a {
+    display: block;
+    padding: 10px 0;
+    white-space: nowrap
+}
+
+#links a i {
+    margin-right: 10px;
+    font-size: 125%;
+    width: 33px
+}
+
+#links a small {
+    font-size: 75%;
+    display: block;
+    margin-left: 50px;
+    margin-top: 5px;
+	color: #333333
+}
+
+#meta {
+    font-size: 100%;
+    margin-bottom: 50px
+}
+
+.copyright {
+    font-size: 90%
+}
+
+.meta-links {
+	color: #000000
+}
+
+.meta-links a {
+    font-size: 80%;
+	margin: 0 10px;
+}
+
+.discord {
+    background: #6c80e8;
+    display: inline-block;
+    padding: 12px 15px;
+    line-height: 1.5em;
+    border-radius: 5px;
+    text-align: left;
+    color: #fff;
+    box-shadow: 2px 2px 4px #aaa; 
+    margin: 0
+}
+
+.discord img {
+    float: left;
+    margin-right: 15px;
+    margin-top: 6px
+}
+
+.discord a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff
+}
+
+@media only screen and (max-height:850px) {
+    #wrapper {
+        padding-top: 50px
+    }
+
+    #links ul {
+        margin: 40px auto
+    }
+}
+
+@media only screen and (max-width:767px) {
+    body {
+        font-size: 14px
+    }
+
+    #wrapper {
+        padding-top: 50px
+    }
+
+    #links a small {
+        margin-left: 44px
+    }
+}
