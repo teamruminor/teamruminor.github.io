@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-    color: #333333 !important
+    color: #333333
 }
 
 #wrapper {
@@ -134,6 +134,10 @@ a:hover {
     font-weight: 600;
     font-size: 14px;
     color: #fff
+}
+
+.discord a:hover {
+    color: #eee
 }
 
 @media only screen and (max-height:850px) {
