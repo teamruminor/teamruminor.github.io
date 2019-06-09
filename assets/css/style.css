@@ -6,7 +6,7 @@
 html::before {
   content: ' ';
   display: block;
-  background-image: url('https://www.teamruminor.com/assets/img/background.png');
+  background-image: url('https://www.teamruminor.com/assets/img/background.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh;
